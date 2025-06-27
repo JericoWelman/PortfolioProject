@@ -423,7 +423,7 @@ header .sticky{
   position: relative;
   overflow: hidden;
 }
-.grid-4-col .apple {
+.grid-4-col .content {
   position: absolute;
   bottom: 0px;
   left: 0;
@@ -431,6 +431,7 @@ header .sticky{
 .grid-4-content h5 {
   font-size: 15px;
   margin: 8px 0 4px;
+  text-align: center;
 }
 .grid-4-col:hover h5 {
   color: blueviolet;
@@ -591,6 +592,10 @@ header .sticky{
   
 }
 .grid-3-item-content h5:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.grid-6-item-content h5:hover {
   color: blueviolet;
   cursor: pointer;
 }
